@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S4l-BA-XrT">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Emily-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Emily" id="BYZ-38-t0r" customClass="ViewController" customModule="aboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CBC1EFEC-BA37-4B71-B73D-04E5F83A6620_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="Nyh-tv-QD8">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="Kcw-7S-SWM"/>
+                                    <constraint firstAttribute="height" constant="852" id="VVF-uH-GRS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emily" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruE-d1-4nY">
+                                <rect key="frame" x="136.66666666666666" y="153" width="119.99999999999997" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="jPu-CE-2hb"/>
+                                    <constraint firstAttribute="height" constant="51" id="pN2-ve-LRw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgB-me-VUN">
+                                <rect key="frame" x="16" y="627" width="361" height="225"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="41t-ws-NHA"/>
+                                    <constraint firstAttribute="width" constant="361" id="LPF-kM-wfD"/>
+                                </constraints>
+                                <string key="text">Emily is my girlfriend of a year and a half. We've known each other since we were kids, and I'm so lucky to have her, she makes me happy. We like to travel, the photo set as the background is us at Havasupai in the Grand Canyon.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="PgB-me-VUN" secondAttribute="bottom" id="7BK-UO-xzM"/>
+                            <constraint firstItem="Nyh-tv-QD8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8a7-Zl-gdY"/>
+                            <constraint firstItem="ruE-d1-4nY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JFh-fF-jhT"/>
+                            <constraint firstItem="Nyh-tv-QD8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JWX-7p-q79"/>
+                            <constraint firstAttribute="bottom" secondItem="Nyh-tv-QD8" secondAttribute="bottom" id="QW2-c2-yDq"/>
+                            <constraint firstItem="Nyh-tv-QD8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TPK-fH-O3q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PgB-me-VUN" secondAttribute="trailing" constant="16" id="X19-gJ-H6Y"/>
+                            <constraint firstItem="PgB-me-VUN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ydk-dD-wCN"/>
+                            <constraint firstItem="ruE-d1-4nY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="hZc-1m-ZKl"/>
+                            <constraint firstItem="PgB-me-VUN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rFv-Id-OhO"/>
+                            <constraint firstItem="Nyh-tv-QD8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xgz-kY-bM3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Emily" image="richtext.page.fill" catalog="system" id="Z70-ub-Ylk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
+        </scene>
+        <!--Cars-->
+        <scene sceneID="igW-wG-EVf">
+            <objects>
+                <viewController title="Cars" id="FxB-99-WWa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CuO-6n-cq6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="M3" translatesAutoresizingMaskIntoConstraints="NO" id="Gxy-9m-Jzi">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="Whz-q1-mz6"/>
+                                    <constraint firstAttribute="height" constant="852" id="iBJ-tK-UZT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhH-Sz-PEi">
+                                <rect key="frame" x="154.66666666666666" y="153" width="84" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="qYH-jd-9Qf"/>
+                                    <constraint firstAttribute="height" constant="51" id="xOw-P4-HzP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yva-Bi-a7Y">
+                                <rect key="frame" x="16" y="513" width="361" height="225"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="QqQ-js-7aI"/>
+                                    <constraint firstAttribute="height" constant="225" id="Wje-xd-c6j"/>
+                                </constraints>
+                                <string key="text">I love cars, I know how to take them apart and put them back together. The car you see in the background is my new e92 M3 with a flat plane V8 that sounds like a Ferrari. It's one of my dream cars. The smiles per gallon is worth it!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XPg-xz-tGB"/>
+                        <constraints>
+                            <constraint firstItem="Gxy-9m-Jzi" firstAttribute="trailing" secondItem="XPg-xz-tGB" secondAttribute="trailing" id="0gP-X4-CGu"/>
+                            <constraint firstAttribute="bottom" secondItem="Gxy-9m-Jzi" secondAttribute="bottom" id="49E-Jc-Bkf"/>
+                            <constraint firstItem="Gxy-9m-Jzi" firstAttribute="centerX" secondItem="CuO-6n-cq6" secondAttribute="centerX" id="4u4-bT-ADO"/>
+                            <constraint firstItem="yhH-Sz-PEi" firstAttribute="centerX" secondItem="XPg-xz-tGB" secondAttribute="centerX" id="A1T-gY-jOG"/>
+                            <constraint firstItem="XPg-xz-tGB" firstAttribute="trailing" secondItem="Yva-Bi-a7Y" secondAttribute="trailing" constant="16" id="FlL-j2-hRc"/>
+                            <constraint firstItem="Gxy-9m-Jzi" firstAttribute="leading" secondItem="XPg-xz-tGB" secondAttribute="leading" id="RhR-CF-gVv"/>
+                            <constraint firstItem="yhH-Sz-PEi" firstAttribute="top" secondItem="XPg-xz-tGB" secondAttribute="top" constant="94" id="S1B-2I-UdJ"/>
+                            <constraint firstItem="XPg-xz-tGB" firstAttribute="bottom" secondItem="Yva-Bi-a7Y" secondAttribute="bottom" constant="31" id="eqd-5n-BMe"/>
+                            <constraint firstItem="Gxy-9m-Jzi" firstAttribute="top" secondItem="CuO-6n-cq6" secondAttribute="top" id="hYp-Va-KnZ"/>
+                            <constraint firstItem="Yva-Bi-a7Y" firstAttribute="leading" secondItem="XPg-xz-tGB" secondAttribute="leading" constant="16" id="qQm-gv-GZ6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cars" image="richtext.page.fill.ar" catalog="system" id="otS-AS-AtX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UHz-RO-PbX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1799.2366412213739" y="3.5211267605633805"/>
+        </scene>
+        <!--Golf-->
+        <scene sceneID="vFG-DD-5HN">
+            <objects>
+                <viewController title="Golf" id="O3v-MX-SaT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="scc-NK-U6E">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black Desert" translatesAutoresizingMaskIntoConstraints="NO" id="RwT-T3-XFW">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="852" id="S3l-gK-dFE"/>
+                                    <constraint firstAttribute="width" constant="393" id="iF3-YH-SSm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Golf" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGD-a2-U0f">
+                                <rect key="frame" x="154.66666666666666" y="153" width="84" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="6Oe-n2-QZA"/>
+                                    <constraint firstAttribute="height" constant="51" id="HZm-eH-7Kb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjR-Gc-AMF">
+                                <rect key="frame" x="16" y="244" width="361" height="225"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="9c4-0D-iFV"/>
+                                    <constraint firstAttribute="height" constant="225" id="apj-yP-dnH"/>
+                                </constraints>
+                                <string key="text">I've always played and loved sports growing up. Basketball, football, baseball, but as I've grown I think my favorite sport to play is golf. My dad taught me how to play, and I love golfing with him. I've actually played this course that's set as the background.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fG4-F2-UgJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RwT-T3-XFW" secondAttribute="bottom" id="5ga-kd-6cP"/>
+                            <constraint firstItem="RwT-T3-XFW" firstAttribute="leading" secondItem="fG4-F2-UgJ" secondAttribute="leading" id="CF0-PE-ZJq"/>
+                            <constraint firstItem="RwT-T3-XFW" firstAttribute="trailing" secondItem="fG4-F2-UgJ" secondAttribute="trailing" id="OCn-OU-w30"/>
+                            <constraint firstAttribute="trailing" secondItem="cjR-Gc-AMF" secondAttribute="trailing" constant="16" id="g8g-sk-g0d"/>
+                            <constraint firstItem="cjR-Gc-AMF" firstAttribute="leading" secondItem="fG4-F2-UgJ" secondAttribute="leading" constant="16" id="gSA-WW-Tx3"/>
+                            <constraint firstItem="gGD-a2-U0f" firstAttribute="centerX" secondItem="scc-NK-U6E" secondAttribute="centerX" id="mI4-wN-Vzm"/>
+                            <constraint firstItem="gGD-a2-U0f" firstAttribute="top" secondItem="fG4-F2-UgJ" secondAttribute="top" constant="94" id="p4X-lu-YXD"/>
+                            <constraint firstItem="fG4-F2-UgJ" firstAttribute="bottom" secondItem="cjR-Gc-AMF" secondAttribute="bottom" constant="300" id="rTX-G2-IuH"/>
+                            <constraint firstItem="RwT-T3-XFW" firstAttribute="top" secondItem="scc-NK-U6E" secondAttribute="top" id="tV1-I5-aAd"/>
+                            <constraint firstItem="RwT-T3-XFW" firstAttribute="centerX" secondItem="scc-NK-U6E" secondAttribute="centerX" id="yQp-U1-GbP"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Golf" image="richtext.page.fill.he" catalog="system" id="Gde-0T-sLj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BhC-cH-kuW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2576.3358778625952" y="3.5211267605633805"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Pg1-UW-9ta">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="S4l-BA-XrT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="swP-n7-IOa">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FxB-99-WWa" kind="relationship" relationship="viewControllers" id="Lkk-bd-Inr"/>
+                        <segue destination="O3v-MX-SaT" kind="relationship" relationship="viewControllers" id="2so-Cs-ESu"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="bFF-P7-yXJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e0K-vn-99p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Black Desert" width="1000" height="937"/>
+        <image name="CBC1EFEC-BA37-4B71-B73D-04E5F83A6620_1_105_c" width="768" height="1024"/>
+        <image name="M3" width="900" height="1600"/>
+        <image name="richtext.page.fill" catalog="system" width="115" height="128"/>
+        <image name="richtext.page.fill.ar" catalog="system" width="115" height="128"/>
+        <image name="richtext.page.fill.he" catalog="system" width="115" height="128"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
